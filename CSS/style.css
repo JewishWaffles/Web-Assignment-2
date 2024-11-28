@@ -5,14 +5,9 @@
     border: red solid;
 } */
 
-p{
-  color: white
+p a{
+    color: black;
 }
-
-h1,h2{
-  color:white
-}
-
 header{
     background: linear-gradient(180deg, #7d1606, #140b8b, #0567c2);
     color: white;
@@ -131,7 +126,7 @@ li{
 .hero-text{
     position: absolute;
     padding: 20px;
-    color: #fbeeef; /* change the text colour */
+    color: black; /* change the text colour */
     font-family: sans-serif; /* make the font appear in sans-serif */
     font-weight: bold; /* make the text bold */
 }
@@ -157,6 +152,9 @@ li{
     width: 20%;
     /* padding:     20px; */
     background-color: #e3e3e3;
+}
+.sidebar ul li a{
+    color: black;
 }
 
 .biography-table img{
@@ -253,6 +251,9 @@ table{
     display: flex;
     gap: 10px;
 }
+.contact-section h2{
+    color: black;
+}
 .contact-main{
     width: 80%;
     background-color: beige;
@@ -262,6 +263,10 @@ table{
     background-image: url(../Images/contact/5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.contact-aside ul li a{
+    color: white;
+    background-color: black;
 }
 
 
